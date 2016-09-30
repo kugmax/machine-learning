@@ -1,11 +1,11 @@
-import pandas
 import matplotlib.pyplot as pyplot
 import numpy
-
-from Perceptron import Perceptron
-from AdalineGD import AdalineGD
+import pandas
 from AdalineSGD import AdalineSGD
 from matplotlib.colors import ListedColormap
+
+from ch2.AdalineGD import AdalineGD
+
 
 def plot_decision_regions(X, y, classifier, resolution=0.02):
     markers = ('s', 'x', 'o', '^', 'v')
